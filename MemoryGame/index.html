@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Memory Game</title>
+    <link href = "css/mystyles.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/card.js" type="text/javascript"></script>
+    <script src="js/deck.js" type="text/javascript"></script>
+    <script src="js/memory.js" type="text/javascript"></script>
+    <script src="js/myscripts.js" type="text/javascript"></script>
+</head>
+<body>
+<header>Memory Game</header>
+<section id="section1">
+    <div id="carddiv">
+        <!--
+        <img src="images/RRIDER.png" id="card0" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card1" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card2" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card3" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card4" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card5" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card6" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card7" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card8" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card9" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card10" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card11" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card12" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card13" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card14" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card15" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card16" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card17" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card18" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card19" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card20" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card21" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card22" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card23" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card24" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card25" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card26" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card27" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card28" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card29" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card30" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card31" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card32" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card33" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card34" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card35" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card36" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card37" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card38" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card39" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card40" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card41" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card42" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card43" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card44" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card45" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card46" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card47" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card48" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card49" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card50" class="card" alt="card image" height="100px" width="100px" />
+        <img src="images/RRIDER.png" id="card51" class="card" alt="card image" height="100px" width="100px" />
+        -->
+        <button id="again">Click to play again</button>
+        <div id="score">Guesses : 0</div>
+    </div>
+    <!--<div id="click"></div> -->
+</section>
+<p id="gameInfo">You Win!</p>
+</body>
+</html>

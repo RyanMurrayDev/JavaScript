@@ -1,0 +1,299 @@
+#section1{
+    text-align: center;
+}
+#click{
+    position: absolute;
+    /*background-color: black; */
+    height:500px;
+    width:1350px;
+    visibility: hidden;
+}
+#score{
+    font-size: 20px;
+    position: absolute;
+    left:0;
+    top:600px;
+}
+header{
+    font-size: 50px;
+    color: red;
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+body{
+    /* background-color: lightgreen; */
+}
+#gameInfo{
+    font-size: 100px;
+    text-align: center;
+    color: red;
+    visibility: hidden;
+}
+#again{
+    border: 1px solid black;
+    position: absolute;
+    top:600px;
+    left: 600px;
+    visibility: hidden;
+}
+/*
+#card0{
+    position: absolute;
+    top:75px;
+    left: 0;
+}
+#card1{
+    position: absolute;
+    top:75px;
+    left: 105px;
+}
+#card2{
+    position: absolute;
+    top:75px;
+    left: 210px;
+}
+#card3{
+    position: absolute;
+    top:75px;
+    left: 315px;
+}
+#card4{
+     position: absolute;
+     top:75px;
+     left: 420px;
+ }
+#card5{
+    position: absolute;
+    top:75px;
+    left: 525px;
+}
+#card6{
+     position: absolute;
+     top:75px;
+     left: 630px;
+ }
+#card7{
+    position: absolute;
+    top:75px;
+    left: 735px;
+}
+#card8{
+    position: absolute;
+    top:75px;
+    left: 840px;
+}
+#card9{
+    position: absolute;
+    top:75px;
+    left: 945px;
+}
+#card10{
+    position: absolute;
+    top:75px;
+    left: 1050px;
+}
+#card11{
+    position: absolute;
+    top:75px;
+    left: 1155px;
+}
+#card12{
+    position: absolute;
+    top:75px;
+    left: 1260px;
+}
+#card13{
+    position: absolute;
+    top:200px;
+    left: 0;
+}
+#card14{
+    position: absolute;
+    top:200px;
+    left: 105px;
+}
+#card15{
+    position: absolute;
+    top:200px;
+    left: 210px;
+}
+#card16{
+    position: absolute;
+    top:200px;
+    left: 315px;
+}
+#card17{
+    position: absolute;
+    top:200px;
+    left: 420px;
+}
+#card18{
+    position: absolute;
+    top:200px;
+    left: 525px;
+}
+#card19{
+    position: absolute;
+    top:200px;
+    left: 630px;
+}
+#card20{
+    position: absolute;
+    top:200px;
+    left: 735px;
+}
+#card21{
+    position: absolute;
+    top:200px;
+    left: 840px;
+}
+#card22{
+    position: absolute;
+    top:200px;
+    left: 945px;
+}
+#card23{
+    position: absolute;
+    top:200px;
+    left: 1050px;
+}
+#card24{
+    position: absolute;
+    top:200px;
+    left: 1155px;
+}
+#card25{
+    position: absolute;
+    top:200px;
+    left: 1260px;
+}
+#card26{
+    position: absolute;
+    top:325px;
+    left: 0;
+}
+#card27{
+    position: absolute;
+    top:325px;
+    left: 110px;
+}
+#card28{
+    position: absolute;
+    top:325px;
+    left: 215px;
+}
+#card29{
+    position: absolute;
+    top:325px;
+    left: 320px;
+}
+#card30{
+    position: absolute;
+    top:325px;
+    left: 425px;
+}
+#card31{
+    position: absolute;
+    top:325px;
+    left: 530px;
+}
+#card32{
+    position: absolute;
+    top:325px;
+    left: 635px;
+}
+#card33{
+    position: absolute;
+    top:325px;
+    left: 740px;
+}
+#card34{
+    position: absolute;
+    top:325px;
+    left: 845px;
+}
+#card35{
+    position: absolute;
+    top:325px;
+    left: 950px;
+}
+#card36{
+    position: absolute;
+    top:325px;
+    left: 1055px;
+}
+#card37{
+    position: absolute;
+    top:325px;
+    left: 1160px;
+}
+#card38{
+    position: absolute;
+    top:325px;
+    left: 1265px;
+}
+#card39{
+    position: absolute;
+    top:450px;
+    left: 0;
+}
+#card40{
+    position: absolute;
+    top:450px;
+    left: 105px
+}
+#card41{
+    position: absolute;
+    top:450px;
+    left: 210px;
+}
+#card42{
+    position: absolute;
+    top:450px;
+    left: 315px;
+}
+#card43{
+    position: absolute;
+    top:450px;
+    left: 420px;
+}
+#card44{
+    position: absolute;
+    top:450px;
+    left: 525px;
+}
+#card45{
+    position: absolute;
+    top:450px;
+    left: 630px;
+}
+#card46{
+    position: absolute;
+    top:450px;
+    left: 735px;
+}
+#card47{
+    position: absolute;
+    top:450px;
+    left: 840px;
+}
+#card48{
+    position: absolute;
+    top:450px;
+    left: 945px;
+}
+#card49{
+    position: absolute;
+    top:450px;
+    left: 1050px;
+}
+#card50{
+    position: absolute;
+    top:450px;
+    left: 1155px;
+}
+#card51{
+    position: absolute;
+    top:450px;
+    left: 1260px;
+} */
