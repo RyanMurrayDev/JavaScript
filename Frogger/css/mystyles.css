@@ -1,0 +1,30 @@
+canvas{
+    background-color: white;
+    border: 2px solid black;
+    width:800px;
+    height:600px;
+    padding: 0;
+    margin: auto;
+    display: block;
+}
+#background{
+    visibility: hidden;
+}
+#title{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 2px green;
+}
+#frogger1{
+    position: absolute;
+    left: 0;
+
+}
+#frogger2{
+    position: absolute;
+    left: 1200px;
+}
