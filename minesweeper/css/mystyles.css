@@ -1,0 +1,43 @@
+#div1{
+    margin: 20px auto;
+    border: 2px inset black;
+    padding: 10px;
+
+}
+
+#div1 img{
+    width: 15px;
+    height: 15px;
+    padding:0;
+}
+section{
+    width:75%;
+    margin: 20px auto;
+}
+
+table{
+    margin:auto auto;
+    border-collapse:collapse;
+    padding:5px;
+}
+tr,td{
+    margin:0;
+    padding:1px;
+}
+#restartButton{
+    visibility: hidden;
+    z-index: 3;
+    width: 100px;
+}
+#div2{
+    position: absolute;
+    /*background-color: black; */
+    height:500px;
+    width:1150px;
+    visibility: hidden;
+}
+
+
+
+
+
