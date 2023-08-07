@@ -1,0 +1,53 @@
+.container-fluid{
+    height: 100vh;
+    min-width: 300px;
+    background-image: url("../img/backgrounds/bg.png");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+    overflow-x: scroll;
+}
+.center {
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    width:350px;
+    text-align:center;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: yellow;
+    text-shadow: 2px 2px black;
+    font-family: 'Atma';
+}
+.link-unstyled {
+     font-style: inherit;
+     color: inherit;
+     background-color: transparent;
+     font-size: inherit;
+     text-decoration: none;
+     font-variant: inherit;
+     font-weight: inherit;
+     line-height: inherit;
+     font-family: inherit;
+     border-radius: inherit;
+     border: inherit;
+     outline: inherit;
+     box-shadow: inherit;
+     padding: inherit;
+     vertical-align: inherit;
+ }
+
+canvas{
+     width: 60%;
+     height: 70%;
+   /*width:700px;
+     height: 512px;*/
+    border: 5px solid black;
+}

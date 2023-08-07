@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flappy Bird</title>
+    <link href="css/mystyles.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="js/sprites.js"></script>
+    <script src="js/FlappyBird.js"></script>
+    <script src="js/myscripts.js"></script>
+</head>
+<body>
+<div class = "container-fluid">
+<div ng-app="myApp" ng-controller="mainCtrl" class="center">
+    <h1><a class="link-unstyled" href="#!login">F</a>lappy Bird</h1></br>
+    <input type="text" class="input" placeholder="Enter Username" ng-model="username"></br></br>
+    <p class="text-danger">{{err}}</p></br>
+    <button type="button" class="btn btn-primary" ng-click="play()">Play</button></br></br></br></br>
+
+    <a class="btn btn-light" href="#!scores">High Scores</a>
+</div>
+</div>
+</body>
+</html>

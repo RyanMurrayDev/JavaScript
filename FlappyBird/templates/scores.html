@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>High Scores</title>
+    <link href="css/mystyles.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="js/myscripts.js"></script>
+</head>
+<body>
+<div class = "container-fluid">
+<div ng-app="myApp" ng-controller="scoresCtrl">
+    <input type="text" ng-model="user" placeholder="Username to Search"/>
+    <button ng-click="getScoresByUsername()">Search</button>
+    <button ng-click="getScores()">All Users</button>
+    <a class="w3-btn w3-black" href="#!back">Back</a>
+    </br>
+    <p class="text-danger">{{err}}</p></br>
+    <table class="table table-striped">
+        <tr>
+            <th>Username</th>
+            <th>Score</th>
+            <th>Timestamp</th>
+        </tr>
+        <tr ng-repeat="x in scores">
+            <td>{{ x.username }}</td>
+            <td>{{ x.score }}</td>
+            <td>{{ x.timestamp }}</td>
+        </tr>
+    </table>
+</div>
+</div>
+</body>
+</html>

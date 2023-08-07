@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link href="css/mystyles.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body>
+<div class = "container-fluid">
+<div ng-app="myApp" ng-controller="loginCtrl">
+<h1>Login</h1>
+<input type="text" ng-model="username" placeholder="Username"/>
+<input type="password" ng-model="password" placeholder="Password"/>
+<button ng-click="login()">Login</button>
+  <!--  <form action="http://localhost:4444/admin/login/"  method="post" novalidate>
+        <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" class="form-control" id="username" placeholder="Enter username" name="username" required>
+            <div class="invalid-feedback">Please fill out this field.</div>
+        </div>
+        <br />
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter password" name="password" required>
+            <div class="invalid-feedback">Please fill out this field.</div>
+        </div>
+        <br />
+        <br />
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>-->
+    <p class="text-danger">{{err}}</p></br>
+    <a class="btn btn-light" href="#!register">Register</a></br></br>
+    <a class="btn btn-light" href="#!back">Home</a>
+</div>
+</div>
+</body>
+</html>
