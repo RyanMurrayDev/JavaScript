@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas</title>
+    <link href = "css/mystyles.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/line.js" type="text/javascript"></script>
+    <script src="js/oval.js" type="text/javascript"></script>
+    <script src="js/path.js" type="text/javascript"></script>
+    <script src="js/point.js" type="text/javascript"></script>
+    <script src="js/polygon.js" type="text/javascript"></script>
+    <script src="js/rectangle.js" type="text/javascript"></script>
+    <script src="js/myscripts.js" type="text/javascript"></script>
+</head>
+<body>
+<ul>
+    <li><div class="dropdown">
+        <button  id="shapes" class="dropbtn">Shape</button>
+        <div class="dropdown-content">
+            <div  id="linediv">Line</div>
+            <div id="ovaldiv">Oval</div>
+            <div id="rectanglediv">Rectangle</div>
+            <div id="polygondiv">Polygon</div>
+            <div id="pathdiv">Path</div>
+            <div id="freehanddiv">Freehand</div>
+        </div>
+    </div></li>
+    <li><div class="dropdown">
+        <button  id="size" class="dropbtn">Thickness</button>
+        <div class="dropdown-content">
+            <div  id="size1">1px</div>
+            <div  id="size5">5px</div>
+            <div id="size10">10px</div>
+            <div id="size15">15px</div>
+            <div id="size25">25px</div>
+            <div id="size50">50px</div>
+            <div id="size100">100px</div>
+        </div>
+    </div></li>
+    <li><div class="dropdown">
+        <button  id="strokecolor" class="dropbtn">Stroke Color</button>
+        <div class="dropdown-content">
+            <div id="white">White</div>
+            <div id="black">Black</div>
+            <div  id="red">Red</div>
+            <div id="blue">Blue</div>
+            <div id="orange">Orange</div>
+            <div id="yellow">Yellow</div>
+            <div id="green">Green</div>
+            <div id="purple">Purple</div>
+        </div>
+    </div></li>
+    <li><div class="dropdown">
+        <button  id="fillcolor" class="dropbtn">Fill Color</button>
+        <div class="dropdown-content">
+            <div id="whitefill">White</div>
+            <div id="blackfill">Black</div>
+            <div  id="redfill">Red</div>
+            <div id="bluefill">Blue</div>
+            <div id="orangefill">Orange</div>
+            <div id="yellowfill">Yellow</div>
+            <div id="greenfill">Green</div>
+            <div id="purplefill">Purple</div>
+        </div>
+    </div></li>
+    <li><div class="dropdown">
+        <button id="clear" class="dropbtn">Clear</button>
+    </div>
+    </li>
+    <li><div class="dropdown">
+        <button id="save" class="dropbtn">Save</button>
+    </div>
+    </li>
+</ul>
+<canvas id="canvas1" width="800" height="600">
+    <p>You really need to get a better browser.</p>
+</canvas>
+<h1>Directions:</h1>
+<p>
+    <strong>Line:</strong> Drag click to draw a line
+    <br/><br/>
+    <strong>Oval:</strong> Drag click to draw an oval
+    <br/><br/>
+    <strong>Rectangle:</strong> Drag click to draw rectangle
+    <br/><br/>
+    <strong>Polygon: </strong>Click to add that point as a corner of the polygon
+    <br/> Change shapes and come back for new polygon
+    <br/><br/>
+    <strong>Path:</strong>Click to draw a line to the next point
+    <br/> Change shapes and come back for new path
+    <br/><br/>
+    <strong>Freehand:</strong>Click and move mouse to create your masterpiece!
+</p>
+</body>
+</html>
